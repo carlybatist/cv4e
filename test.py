@@ -1,7 +1,10 @@
 print("hello")
 import numpy as np
 import librosa
-import opensoundscape
+from opensoundscape.audio import Audio
+from opensoundscape.spectrogram import Spectrogram
+from opensoundscape.annotations import BoxedAnnotations
+from opensoundscape.annotations import categorical_to_one_hot
 
 #making alias for connecting to remote server
     #need to make sure you're in home folder (code= cd ~ )
