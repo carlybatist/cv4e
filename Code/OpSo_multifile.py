@@ -100,6 +100,9 @@ print(paired_df)
 # paired_df2 = paired_df[:20]
 # print(paired_df2)
 list_of_bad = []
+list_of_bad_one_hot = []
+list_of_bad_reset_index = []
+
 for i, row in paired_df.iterrows():
     #load the audio into an Audio object
     audio = Audio.from_file(row['audio_file'], metadata=False)
@@ -134,16 +137,31 @@ for i, row in paired_df.iterrows():
 
     #split the annotations to match the audio
     #we choose to keep_index=True so that we retain the audio clip's path in the final label dataframe
-    labels = annotations.one_hot_labels_like(clip_df,classes=classes,min_label_overlap=min_label_overlap,keep_index=True)
+    try:
+        labels = annotations.one_hot_labels_like(clip_df,classes=classes,min_label_overlap=min_label_overlap,keep_index=True)
+    except:
+        print('[annotations.one_hot_labels_like] failed on: '+row['audio_file'])
+        list_of_bad_one_hot.append(row['audio_file'])
     #print(labels)
     # labels['lemur'] = labels.sum(axis=1)
     # labels = labels['lemur']
 
     #since we have saved short audio clips, we can discard the start_time and end_time indices
-    labels = labels.reset_index(level=[1,2],drop=True)
+    try:
+        labels = labels.reset_index(level=[1,2],drop=True)
+    except:
+        print('[labels.reset_index] failed on: '+row['audio_file'])
+        list_of_bad_reset_index.append(row['audio_file'])
+    
     all_labels.append(labels)
     # print(labels)
     # print(all_labels)
+
+    # if cnt == 1000:
+    #     all_labels_tmp = pd.concat(all_labels)
+    #     # print(all_labels)
+    #     all_labels_tmp.to_csv("all_one_hot_encoded_labels_after_1000.csv")
+    # cnt += 1
 
     # cnt+=1
     # if cnt>2:
@@ -160,6 +178,12 @@ all_labels.to_csv("all_one_hot_encoded_labels.csv")
 
 print('bad:')
 print(list_of_bad)
+
+print('other bad:')
+print(list_of_bad_one_hot)
+
+print('bad x3:')
+print(list_of_bad_reset_index)
 
 # # #sanity check
 # # # plot spectrograms for 3 random positive clips
