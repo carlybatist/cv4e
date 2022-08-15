@@ -1,3 +1,4 @@
+import pwd
 from opensoundscape.preprocess.preprocessors import SpectrogramPreprocessor
 from opensoundscape.torch.datasets import AudioFileDataset, AudioSplittingDataset
 from opensoundscape.preprocess.utils import show_tensor, show_tensor_grid
@@ -60,7 +61,6 @@ _ = show_tensor_grid(tensors,3)
 
 # preprocessor pipelines
 
-# modifying actions
 preprocessor = SpectrogramPreprocessor(sample_duration=3)
 preprocessor.pipeline
 # view default parameters for an Action
@@ -167,47 +167,3 @@ dataset.preprocessor.pipeline.frequency_mask.bypass =True
 # increase the intensity of gaussian noise added to the image
 dataset.preprocessor.pipeline.add_noise.set(std=0.2)
 show_tensor(dataset[0]['X'],invert=True,transform_from_zero_centered=True)
-
-# remove action by name
-preprocessor.remove_action('add_noise')
-preprocessor.pipeline
-
-# overlay augmentation
-
-#initialize a preprocessor and provide a dataframe with samples to use as overlays
-preprocessor = SpectrogramPreprocessor(2.0, overlay_df=labels)
-#remove augmentations other than overlay
-for name in ['random_affine','time_mask','frequency_mask','add_noise']:
-    preprocessor.remove_action(name)
-#Overlay samples from a specific class
-dataset.preprocessor.pipeline.overlay.set(
-    overlay_class='absent',
-    overlay_weight=0.4
-)
-show_tensor(dataset[0]['X'],invert=True,transform_from_zero_centered=True)
-#Overlaying samples from any class
-dataset.preprocessor.pipeline.overlay.set(overlay_class=None)
-show_tensor(dataset[0]['X'],invert=True,transform_from_zero_centered=True)
-#Overlaying samples from a “different” class
-dataset.preprocessor.pipeline.overlay.set(update_labels=False,overlay_class='different',overlay_weight=0.8)
-show_tensor(dataset[0]['X'],invert=True,transform_from_zero_centered=True)
-
-#modify overlay weight
-preprocessor.pipeline.overlay.set(overlay_class='present')
-tensors = []
-overlay_weights = [0.01, 0.4, 0.6, 0.8]
-for w in overlay_weights:
-    preprocessor.pipeline.overlay.set(overlay_weight=w)
-    dataset = AudioFileDataset(labels,preprocessor)
-    np.random.seed(0) #get the same overlay every time
-    tensors.append(dataset[2]['X'])
-_ = show_tensor_grid(tensors, 2, labels=overlay_weights)
-
-#following additional variables can be requested by an action:
-#"_path": audio file path
-#"_labels": row of pd.DataFrame with 0/1 labels for each class (pd.Series)
-#"_start_time": start time of clip within longer audio file, if splitting long files into clips during preprocessing
-#"_sample_duration": sample_duration of clip in seconds
-#"_pipeline": a copy of the preprocessor's pipeline itself
-
-
