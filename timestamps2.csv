@@ -1,0 +1,482 @@
+file,detection,site,label,start,stop,low,high
+audiomoth1_20211212_055100.WAV,1,Malazamasina,roar-shriek,0,3,162,1520
+audiomoth1_20211212_111900.WAV,1,Malazamasina,roar-shriek,0,11,0,8234
+audiomoth1_20211212_121600.WAV,1,Malazamasina,roar-shriek,0,8,32,2200
+audiomoth1_20211212_121700.WAV,1,Malazamasina,roar-shriek,0,10,32,1779
+audiomoth1_20211218_151700.WAV,1,Malazamasina,roar-shriek,0,25,129,2005
+audiomoth1_20211218_155900.WAV,1,Malazamasina,roar-shriek,0,13,162,2879
+audiomoth1_20211218_163000.WAV,1,Malazamasina,roar-shriek,0,16,129,2070
+audiomoth1_20211218_173300.WAV,1,Malazamasina,roar-shriek,0,35,46,10795
+audiomoth1_20211218_174400.WAV,1,Malazamasina,bark,0,6,129,2523
+audiomoth1_20211218_181600.WAV,1,Malazamasina,roar-shriek,0,19,65,1876
+audiomoth1_20211218_182000.WAV,1,Malazamasina,roar-shriek,0,48,32,2523
+audiomoth1_20211224_143102.WAV,1,Malazamasina,roar-shriek,0,41,0,1921
+Audiomoth1_Sakaroa_20220516_062300.WAV,1,Sakaroa,bark,0,2,546,2798
+audiomoth10_20220308_074500.WAV,1,Andranomiditra,chatter,0,2,1488,10156
+audiomoth12_20220221_060600.WAV,1,Sandranata,chatter,0,1,873,5531
+audiomoth12_20220226_140500.WAV,1,Sandranata,roar-shriek,0,6,388,4011
+audiomoth12_20220226_155100.WAV,1,Sandranata,roar-shriek,0,8,129,4205
+audiomoth12_20220302_093100.WAV,1,Sandranata,roar-shriek,0,4,550,3623
+audiomoth2_20211217_061200.WAV,1,Sahafoza,roar-shriek,0,55,0,3040
+audiomoth2_20211217_061300.WAV,1,Sahafoza,roar-shriek,0,53,0,1908
+audiomoth2_20211217_061500.WAV,1,Sahafoza,roar-shriek,0,32,97,2782
+audiomoth2_20211217_074400.WAV,1,Sahafoza,roar-shriek,0,38,32,2102
+audiomoth2_20211217_074500.WAV,1,Sahafoza,roar-shriek,0,55,65,3170
+audiomoth2_20211217_131100.WAV,1,Sahafoza,roar-shriek,0,29,32,1811
+audiomoth2_20211217_131200.WAV,1,Sahafoza,roar-shriek,0,19,32,1553
+audiomoth2_20211217_140800.WAV,1,Sahafoza,roar-shriek,0,22,0,2005
+audiomoth2_20211217_145700.WAV,1,Sahafoza,roar-shriek,0,14,65,1262
+audiomoth2_20211224_080500.WAV,1,Sahafoza,roar-shriek,0,54,32,1456
+audiomoth2_20211224_082700.WAV,1,Sahafoza,roar-shriek,0,2,162,1844
+audiomoth2_20211224_082800.WAV,1,Sahafoza,roar-shriek,0,55,97,3396
+audiomoth2_20211224_082900.WAV,1,Sahafoza,roar-shriek,0,51,97,3105
+audiomoth2_20211224_084200.WAV,1,Sahafoza,roar,0,2,97,2005
+audiomoth2_20211224_084300.WAV,1,Sahafoza,roar-shriek,0,27,32,1520
+audiomoth2_20211224_092300.WAV,1,Sahafoza,roar-shriek,0,9,194,4076
+audiomoth2_20211224_092400.WAV,1,Sahafoza,roar-shriek,0,6,324,3235
+audiomoth2_20211224_092500.WAV,1,Sahafoza,roar-shriek,0,21,129,2588
+audiomoth2_20211224_092600.WAV,1,Sahafoza,roar-shriek,0,15,129,1294
+audiomoth2_20211224_101800.WAV,1,Sahafoza,roar-shriek,0,17,65,1650
+audiomoth2_20211224_102200.WAV,1,Sahafoza,roar-shriek,0,31,97,2297
+audiomoth2_20211224_104200.WAV,1,Sahafoza,roar-shriek,0,55,97,2394
+audiomoth2_20211224_104300.WAV,1,Sahafoza,roar-shriek,0,9,65,1650
+audiomoth2_20211224_190300.WAV,1,Sahafoza,roar-shriek,0,23,129,1682
+audiomoth2_20211224_190700.WAV,1,Sahafoza,roar-shriek,0,55,32,1229
+audiomoth2_20211224_190800.WAV,1,Sahafoza,roar-shriek,0,8,0,1423
+audiomoth2_20211224_193600.WAV,1,Sahafoza,roar-shriek,0,15,65,1423
+audiomoth2_20211231_051203.WAV,1,Sahafoza,roar-shriek,0,33,65,1747
+audiomoth2_20211231_053803.WAV,1,Sahafoza,roar-shriek,0,16,0,1520
+audiomoth2_20211231_053903.WAV,1,Sahafoza,roar-shriek,0,9,129,1973
+audiomoth2_20211231_130703.WAV,1,Sahafoza,roar,0,2,226,1779
+audiomoth2_20211231_130803.WAV,1,Sahafoza,roar-shriek,0,19,0,1456
+audiomoth2_20211231_131103.WAV,1,Sahafoza,roar-shriek,0,5,97,1197
+audiomoth2_20211231_131503.WAV,1,Sahafoza,roar-shriek,0,50,97,3170
+audiomoth2_20211231_131703.WAV,1,Sahafoza,roar-shriek,0,5,0,1876
+audiomoth22_20220304_071700.WAV,1,Vinanitelo Sud,roar,0,1,65,1714
+audiomoth22_20220304_075900.WAV,1,Vinanitelo Sud,roar,0,1,194,2329
+audiomoth22_20220304_082600.WAV,1,Vinanitelo Sud,bark,0,2,194,2167
+audiomoth3_20211214_055300.WAV,1,Antanivelona,roar-shriek,0,55,226,2426
+audiomoth3_20211214_055400.WAV,1,Antanivelona,roar-shriek,0,4,259,2976
+audiomoth3_20211214_064800.WAV,1,Antanivelona,roar-shriek,0,29,0,5854
+audiomoth3_20211214_064900.WAV,1,Antanivelona,roar-shriek,0,3,65,3008
+audiomoth3_20211214_065300.WAV,1,Antanivelona,roar-shriek,0,7,0,2717
+audiomoth3_20211214_065700.WAV,1,Antanivelona,roar-shriek,0,12,0,4442
+audiomoth3_20211214_152600.WAV,1,Antanivelona,roar-shriek,0,55,65,2102
+audiomoth3_20211214_152700.WAV,1,Antanivelona,roar-shriek,0,54,0,2135
+audiomoth3_20211214_152800.WAV,1,Antanivelona,roar-shriek,0,21,129,2070
+audiomoth3_20211220_080700.WAV,1,Antanivelona,roar-shriek,0,55,65,2782
+audiomoth3_20211220_085400.WAV,1,Antanivelona,roar-shriek,0,9,97,1779
+audiomoth3_20211226_124902.WAV,1,Antanivelona,roar-shriek,0,53,194,4076
+audiomoth3_20211226_125002.WAV,1,Antanivelona,roar ,0,2,129,1747
+audiomoth5_20211210_061800.WAV,1,Mandriandry,roar-shriek,0,30,129,2005
+audiomoth5_20211210_063400.WAV,1,Mandriandry,roar-shriek,0,43,65,2135
+audiomoth5_20211210_063600.WAV,1,Mandriandry,roar-shriek,0,32,32,2038
+audiomoth5_20211210_180200.WAV,1,Mandriandry,roar-shriek,0,53,194,2555
+audiomoth5_20211210_181300.WAV,1,Mandriandry,roar-shriek,0,36,0,2588
+audiomoth5_20211210_181800.WAV,1,Mandriandry,roar-shriek,0,11,65,1617
+audiomoth5_20211210_182600.WAV,1,Mandriandry,roar-shriek,0,55,162,1714
+audiomoth5_20211210_182700.WAV,1,Mandriandry,roar-shriek,0,3,259,1520
+audiomoth5_20211210_183400.WAV,1,Mandriandry,roar-shriek,0,14,97,1682
+audiomoth5_20211210_185800.WAV,1,Mandriandry,roar-shriek,0,12,356,1456
+audiomoth5_20211210_190500.WAV,1,Mandriandry,roar-shriek,0,2,226,2361
+audiomoth5_20211216_071800.WAV,1,Mandriandry,roar-shriek,0,25,129,1585
+audiomoth5_20211216_075800.WAV,1,Mandriandry,roar-shriek,0,32,388,2038
+audiomoth5_20211216_161100.WAV,1,Mandriandry,roar-shriek,0,44,259,1973
+audiomoth5_20211216_164500.WAV,1,Mandriandry,roar-shriek,0,55,226,1552
+audiomoth5_20211216_164600.WAV,1,Mandriandry,roar-shriek,0,8,194,1779
+audiomoth5_20211216_171200.WAV,1,Mandriandry,roar-shriek,0,53,201,1682
+audiomoth5_20211224_092303.WAV,1,Mandriandry,roar-shriek,0,17,92,6267
+audiomoth5_20211224_093603.WAV,1,Mandriandry,roar-shriek,0,10,194,1844
+audiomoth5_20211224_095703.WAV,1,Mandriandry,roar-shriek,0,52,92,6541
+audiomoth5_20211224_102203.WAV,1,Mandriandry,roar-shriek,0,9,226,1423
+audiomoth5_20211224_102503.WAV,1,Mandriandry,roar-shriek,0,26,453,1779
+audiomoth5_20211224_103803.WAV,1,Mandriandry,roar-shriek,0,25,356,2070
+audiomoth1_20211212_111800.WAV,1,Malazamasina,roar-shriek,1,55,32,8927
+audiomoth1_20211212_122600.WAV,1,Malazamasina,roar,1,2,194,1941
+audiomoth1_20211218_174300.WAV,1,Malazamasina,bark,1,6,162,2329
+audiomoth2_20211217_065500.WAV,1,Sahafoza,roar-shriek,1,52,65,2458
+audiomoth2_20211231_052103.WAV,1,Sahafoza,roar-shriek,1,4,65,1456
+audiomoth22_20220228_063100.WAV,1,Vinanitelo Sud,roar-shriek,1,3,259,3493
+audiomoth22_20220304_081200.WAV,1,Vinanitelo Sud,roar,1,2,291,1747
+audiomoth3_20211214_063000.WAV,1,Antanivelona,roar,1,2,65,2038
+audiomoth1_20211212_050700.WAV,1,Malazamasina,bark,2,8,65,3817
+audiomoth1_20211212_064700.WAV,1,Malazamasina,roar,2,3,32,1585
+Audiomoth1_Sakaroa_20220516_062400.WAV,1,Sakaroa,bark,2,5,388,1553
+audiomoth2_20211217_061800.WAV,1,Sahafoza,roar-shriek,2,33,97,1714
+audiomoth2_20211224_103300.WAV,1,Sahafoza,roar-shriek,2,55,129,2911
+audiomoth2_20211231_052003.WAV,1,Sahafoza,roar-shriek,2,15,97,1229
+audiomoth2_20211231_135503.WAV,1,Sahafoza,roar-shriek,2,52,0,2135
+audiomoth22_20220304_072300.WAV,1,Vinanitelo Sud,roar,2,3,259,2620
+audiomoth22_20220304_133100.WAV,1,Vinanitelo Sud,roar-shriek,2,11,65,2458
+audiomoth3_20211214_064700.WAV,1,Antanivelona,roar-shriek,2,55,0,6404
+audiomoth5_20211210_185900.WAV,1,Mandriandry,roar-shriek,2,32,194,1682
+audiomoth5_20211216_172900.WAV,1,Mandriandry,roar-shriek,2,19,324,1973
+audiomoth1_20211212_122800.WAV,1,Malazamasina,roar,3,4,291,1682
+audiomoth10_20220304_175100.WAV,1,Andranomiditra,bark,3,7,129,4399
+audiomoth2_20211231_052403.WAV,1,Sahafoza,roar-shriek,3,28,0,1326
+audiomoth22_20220228_115500.WAV,2,Vinanitelo Sud,roar-shriek,3,6,162,1456
+audiomoth3_20211214_062800.WAV,1,Antanivelona,roar-shriek,3,9,0,2038
+audiomoth3_20211214_065800.WAV,1,Antanivelona,roar-shriek,3,10,0,4391
+audiomoth22_20220304_071300.WAV,1,Vinanitelo Sud,roar,4,5,356,1585
+audiomoth22_20220304_071400.WAV,1,Vinanitelo Sud,roar,4,5,226,1617
+audiomoth22_20220304_071500.WAV,1,Vinanitelo Sud,roar,4,6,0,1553
+audiomoth22_20220304_072300.WAV,2,Vinanitelo Sud,roar,4,5,226,2361
+audiomoth22_20220304_082400.WAV,1,Vinanitelo Sud,roar-shriek,4,13,259,2555
+audiomoth1_20211218_174500.WAV,1,Malazamasina,bark,5,10,194,2491
+audiomoth10_20220308_074500.WAV,2,Andranomiditra,chatter,5,9,1747,11256
+audiomoth12_20220302_105400.WAV,1,Sandranata,roar-shriek,5,14,324,4399
+audiomoth2_20211231_054803.WAV,1,Sahafoza,bark,5,9,226,1520
+audiomoth22_20220304_071400.WAV,2,Vinanitelo Sud,roar-shriek,5,20,97,4464
+audiomoth22_20220304_071800.WAV,1,Vinanitelo Sud,roar,5,7,421,1650
+audiomoth22_20220304_081100.WAV,1,Vinanitelo Sud,roar,5,7,356,1585
+audiomoth3_20211214_062500.WAV,1,Antanivelona,roar-shriek,5,19,32,1908
+audiomoth3_20211214_062600.WAV,1,Antanivelona,roar-shriek,5,9,65,2005
+audiomoth3_20211214_065000.WAV,1,Antanivelona,roar-shriek,5,10,129,3558
+audiomoth3_20211214_165500.WAV,1,Antanivelona,roar,5,6,0,1294
+audiomoth1_20211224_130002.WAV,1,Malazamasina,roar-shriek,6,45,65,1359
+audiomoth10_20220304_174800.WAV,1,Andranomiditra,bark,6,9,97,1941
+audiomoth2_20211217_062900.WAV,1,Sahafoza,roar,6,7,97,1617
+audiomoth2_20211224_104000.WAV,1,Sahafoza,roar-shriek,6,31,0,2264
+audiomoth2_20211224_191900.WAV,1,Sahafoza,roar-shriek,6,18,0,2329
+audiomoth2_20211231_050503.WAV,1,Sahafoza,roar-shriek,6,23,97,1391
+audiomoth22_20220304_070800.WAV,1,Vinanitelo Sud,roar,6,7,129,2523
+audiomoth22_20220304_071000.WAV,1,Vinanitelo Sud,roar,6,7,291,2329
+audiomoth22_20220304_080000.WAV,1,Vinanitelo Sud,roar,6,7,162,1876
+audiomoth22_20220304_082100.WAV,1,Vinanitelo Sud,bark,6,8,485,2555
+audiomoth3_20211214_064600.WAV,1,Antanivelona,roar-shriek,6,17,32,3558
+Audiomoth1_Sakaroa_20220516_062300.WAV,2,Sakaroa,bark,7,10,523,2298
+audiomoth12_20220302_105500.WAV,1,Sandranata,roar-shriek,7,13,259,5563
+audiomoth2_20211231_131203.WAV,1,Sahafoza,roar-shriek,7,15,65,1294
+audiomoth22_20220304_071200.WAV,1,Vinanitelo Sud,roar,7,8,259,1553
+audiomoth1_20211212_050300.WAV,1,Malazamasina,roar-shriek,8,40,97,1876
+audiomoth2_20211217_142900.WAV,1,Sahafoza,roar-shriek,8,36,0,2038
+audiomoth22_20220304_071000.WAV,2,Vinanitelo Sud,roar,8,9,388,1747
+audiomoth22_20220304_081100.WAV,2,Vinanitelo Sud,bark,8,11,65,1423
+audiomoth22_20220304_081400.WAV,1,Vinanitelo Sud,roar,8,9,226,1553
+audiomoth22_20220304_082000.WAV,1,Vinanitelo Sud,bark,8,12,485,1650
+audiomoth1_20211212_064100.WAV,1,Malazamasina,roar,9,10,65,1617
+audiomoth1_20211218_174600.WAV,1,Malazamasina,bark,9,14,226,2523
+audiomoth2_20211224_083300.WAV,1,Sahafoza,roar-shriek,9,23,32,1262
+audiomoth22_20220304_071600.WAV,1,Vinanitelo Sud,roar,9,12,226,1876
+audiomoth5_20211210_180100.WAV,2,Mandriandry,roar-shriek,9,16,97,1359
+audiomoth2_20211231_051503.WAV,1,Sahafoza,roar-shriek,10,32,65,1876
+audiomoth22_20220228_115500.WAV,1,Vinanitelo Sud,roar-shriek,10,13,65,1488
+audiomoth22_20220304_080900.WAV,1,Vinanitelo Sud,bark,10,13,291,1747
+audiomoth22_20220304_081000.WAV,1,Vinanitelo Sud,bark,10,13,453,2555
+audiomoth22_20220304_081300.WAV,1,Vinanitelo Sud,roar,10,11,226,1520
+audiomoth3_20211214_064900.WAV,2,Antanivelona,roar-shriek,10,15,32,3105
+audiomoth1_20211212_122600.WAV,2,Malazamasina,roar,11,12,226,1682
+audiomoth1_20211218_174200.WAV,1,Malazamasina,bark,11,18,162,2620
+audiomoth2_20211217_065200.WAV,1,Sahafoza,roar-shriek,11,22,65,970
+audiomoth2_20211224_082700.WAV,2,Sahafoza,roar-shriek,11,24,97,2394
+audiomoth22_20220304_072100.WAV,1,Vinanitelo Sud,roar,11,13,129,1973
+audiomoth22_20220304_082700.WAV,1,Vinanitelo Sud,bark,11,15,421,2264
+audiomoth2_20211231_131403.WAV,1,Sahafoza,roar-shriek,12,37,65,3267
+audiomoth22_20220304_081400.WAV,2,Vinanitelo Sud,bark,12,15,226,1585
+audiomoth22_20220309_141400.WAV,1,Vinanitelo Sud,roar-shriek,12,17,97,1844
+audiomoth2_20211224_090200.WAV,1,Sahafoza,roar-shriek,13,44,32,3073
+audiomoth2_20211224_104300.WAV,2,Sahafoza,roar-shriek,13,19,97,1714
+audiomoth2_20211231_050603.WAV,1,Sahafoza,roar-shriek,13,52,65,1617
+audiomoth2_20211231_055103.WAV,1,Sahafoza,roar-shriek,13,25,0,1941
+audiomoth22_20220304_070900.WAV,1,Vinanitelo Sud,roar,13,14,485,2394
+audiomoth22_20220304_071300.WAV,2,Vinanitelo Sud,roar,13,14,388,1714
+audiomoth22_20220304_080800.WAV,1,Vinanitelo Sud,bark,13,18,97,3170
+audiomoth22_20220304_082200.WAV,1,Vinanitelo Sud,bark,13,17,550,2491
+audiomoth3_20211214_062800.WAV,2,Antanivelona,roar,13,14,129,2070
+audiomoth1_20211218_174300.WAV,2,Malazamasina,bark,14,19,162,2523
+audiomoth1_20211218_174400.WAV,2,Malazamasina,bark,14,20,162,2394
+audiomoth22_20220304_072700.WAV,1,Vinanitelo Sud,roar,14,15,324,2038
+audiomoth22_20220304_081500.WAV,1,Vinanitelo Sud,roar-shriek,14,26,97,3429
+audiomoth3_20211214_062900.WAV,1,Antanivelona,roar,14,15,65,1423
+audiomoth1_20211218_174000.WAV,1,Malazamasina,bark,15,26,65,2491
+Audiomoth1_Sakaroa_20220516_062400.WAV,2,Sakaroa,bark,15,18,291,2426
+audiomoth2_20211224_103400.WAV,1,Sahafoza,roar-shriek,15,24,0,1876
+audiomoth2_20211231_050203.WAV,1,Sahafoza,roar-shriek,15,21,65,1553
+audiomoth2_20211231_130603.WAV,1,Sahafoza,roar-shriek,16,52,129,3202
+audiomoth22_20220304_075700.WAV,1,Vinanitelo Sud,roar-shriek,16,24,65,2879
+audiomoth1_20211212_122600.WAV,3,Malazamasina,roar,17,18,97,1844
+audiomoth2_20211217_061400.WAV,1,Sahafoza,roar-shriek,17,26,65,1326
+audiomoth22_20220304_071800.WAV,2,Vinanitelo Sud,bark,17,21,97,1714
+audiomoth22_20220304_072900.WAV,1,Vinanitelo Sud,roar,17,19,129,1391
+audiomoth22_20220304_073000.WAV,1,Vinanitelo Sud,roar,17,18,259,1682
+audiomoth22_20220304_081700.WAV,1,Vinanitelo Sud,bark,17,20,388,2264
+audiomoth1_20211212_064700.WAV,2,Malazamasina,roar,18,19,65,1617
+audiomoth12_20220226_140500.WAV,2,Sandranata,roar-shriek,18,21,356,4076
+audiomoth2_20211224_084100.WAV,1,Sahafoza,roar-shriek,18,40,97,2038
+audiomoth2_20211224_092400.WAV,2,Sahafoza,roar-shriek,18,55,97,2911
+audiomoth2_20211224_092600.WAV,2,Sahafoza,roar-shriek,18,36,65,2135
+audiomoth22_20220304_070700.WAV,1,Vinanitelo Sud,roar,18,19,97,2555
+audiomoth22_20220304_071600.WAV,2,Vinanitelo Sud,roar,18,19,129,1747
+audiomoth22_20220304_072800.WAV,1,Vinanitelo Sud,roar,18,19,162,1650
+audiomoth22_20220304_081800.WAV,1,Vinanitelo Sud,bark,18,21,518,1488
+audiomoth22_20220304_082300.WAV,1,Vinanitelo Sud,bark,18,21,615,2846
+audiomoth3_20211214_062800.WAV,3,Antanivelona,roar,18,19,485,1973
+audiomoth1_20211212_122400.WAV,2,Malazamasina,roar,19,21,0,1747
+audiomoth1_20211212_122600.WAV,4,Malazamasina,roar,19,20,194,1779
+audiomoth1_20211212_123700.WAV,1,Malazamasina,roar-shriek,19,55,129,2005
+audiomoth2_20211224_190100.WAV,1,Sahafoza,roar-shriek,19,25,129,1262
+audiomoth2_20211231_053803.WAV,2,Sahafoza,roar-shriek,19,52,97,1844
+audiomoth22_20220304_071100.WAV,1,Vinanitelo Sud,roar,19,20,65,1876
+audiomoth22_20220304_072200.WAV,1,Vinanitelo Sud,roar,19,22,388,2329
+audiomoth22_20220304_081300.WAV,2,Vinanitelo Sud,roar,19,20,291,1682
+audiomoth22_20220304_081600.WAV,1,Vinanitelo Sud,bark,20,24,453,1585
+audiomoth5_20211216_071900.WAV,1,Mandriandry,roar-shriek,20,27,32,2070
+audiomoth1_20211212_065300.WAV,1,Malazamasina,roar,21,22,32,1682
+Audiomoth1_Sakaroa_20220516_062300.WAV,3,Sakaroa,bark,21,24,637,2184
+audiomoth3_20211214_065800.WAV,3,Antanivelona,roar-shriek,21,22,259,1294
+audiomoth1_20211212_122400.WAV,1,Malazamasina,roar,22,24,65,1779
+audiomoth2_20211231_052003.WAV,2,Sahafoza,roar-shriek,22,48,97,1520
+audiomoth22_20220304_081000.WAV,2,Vinanitelo Sud,bark,22,25,421,2297
+audiomoth3_20211214_062600.WAV,2,Antanivelona,roar-shriek,22,25,97,2749
+audiomoth3_20211214_064900.WAV,3,Antanivelona,roar-shriek,22,30,0,2943
+audiomoth1_20211212_064700.WAV,3,Malazamasina,roar,23,24,65,1682
+audiomoth1_20211212_121500.WAV,1,Malazamasina,roar-shriek,23,31,65,2491
+audiomoth2_20211217_062500.WAV,1,Sahafoza,roar-shriek,23,33,32,2200
+audiomoth22_20220304_071200.WAV,2,Vinanitelo Sud,roar,23,24,324,1650
+audiomoth22_20220304_071700.WAV,2,Vinanitelo Sud,roar,23,25,324,2167
+audiomoth22_20220304_075900.WAV,2,Vinanitelo Sud,bark,23,31,32,1553
+audiomoth1_20211212_055000.WAV,1,Malazamasina,roar-shriek,24,55,162,2749
+audiomoth1_20211212_122800.WAV,2,Malazamasina,roar,24,25,485,1973
+audiomoth1_20211218_174500.WAV,2,Malazamasina,bark,24,30,194,2588
+audiomoth2_20211217_140700.WAV,1,Sahafoza,roar-shriek,24,55,65,2135
+audiomoth22_20220304_081100.WAV,3,Vinanitelo Sud,bark,24,27,388,2426
+audiomoth3_20211214_055200.WAV,1,Antanivelona,roar-shriek,24,55,259,3235
+audiomoth5_20211210_062400.WAV,1,Mandriandry,roar-shriek,24,27,32,1520
+audiomoth22_20220304_070800.WAV,2,Vinanitelo Sud,roar,25,27,97,1779
+audiomoth22_20220304_071900.WAV,1,Vinanitelo Sud,roar,25,29,97,1779
+audiomoth22_20220304_082000.WAV,2,Vinanitelo Sud,roar-shriek,25,30,162,1876
+audiomoth1_20211218_162900.WAV,1,Malazamasina,roar-shriek,26,55,129,3105
+audiomoth2_20211217_140800.WAV,2,Sahafoza,roar,26,30,162,2005
+audiomoth22_20220304_071400.WAV,3,Vinanitelo Sud,roar-shriek,26,32,129,2038
+audiomoth3_20211220_085300.WAV,1,Antanivelona,roar-shriek,26,55,0,2653
+audiomoth5_20211210_063500.WAV,1,Mandriandry,roar-shriek,26,55,97,2135
+audiomoth5_20211216_082600.WAV,1,Mandriandry,roar-shriek,26,31,194,1747
+audiomoth1_20211212_122600.WAV,5,Malazamasina,roar,27,28,129,1617
+audiomoth1_20211218_174200.WAV,2,Malazamasina,bark,27,33,194,2491
+audiomoth1_20211218_174300.WAV,3,Malazamasina,bark,27,33,194,2555
+audiomoth2_20211224_080900.WAV,1,Sahafoza,roar-shriek,27,44,0,2264
+audiomoth22_20220304_070900.WAV,2,Vinanitelo Sud,roar,27,29,356,2102
+audiomoth22_20220304_072000.WAV,1,Vinanitelo Sud,roar,27,28,65,1553
+audiomoth22_20220304_080800.WAV,2,Vinanitelo Sud,bark,27,30,291,1488
+audiomoth22_20220304_080900.WAV,2,Vinanitelo Sud,bark,27,30,324,1650
+audiomoth1_20211212_121700.WAV,2,Malazamasina,roar-shriek,28,33,194,1941
+audiomoth1_20211224_143002.WAV,1,Malazamasina,roar-shriek,28,53,32,1779
+audiomoth22_20220228_101900.WAV,1,Vinanitelo Sud,roar-shriek,28,32,65,1650
+audiomoth22_20220304_071600.WAV,3,Vinanitelo Sud,roar,28,29,226,1682
+audiomoth22_20220304_072300.WAV,3,Vinanitelo Sud,roar,28,29,291,2135
+audiomoth22_20220304_081000.WAV,3,Vinanitelo Sud,roar,28,29,356,1553
+audiomoth22_20220304_081400.WAV,3,Vinanitelo Sud,roar,28,29,259,1844
+audiomoth3_20211214_065900.WAV,1,Antanivelona,roar-shriek,28,31,162,1326
+audiomoth3_20211214_152500.WAV,1,Antanivelona,roar-shriek,28,55,0,2102
+audiomoth5_20211216_071900.WAV,2,Mandriandry,roar-shriek,28,32,162,1714
+audiomoth1_20211212_123000.WAV,1,Malazamasina,roar,29,30,97,1811
+audiomoth1_20211218_181600.WAV,2,Malazamasina,roar-shriek,29,33,129,1811
+audiomoth12_20220302_105400.WAV,2,Sandranata,roar-shriek,29,34,356,4076
+audiomoth2_20211224_102000.WAV,1,Sahafoza,roar-shriek,29,52,97,3170
+audiomoth2_20211224_103400.WAV,2,Sahafoza,roar-shriek,29,42,32,1390
+audiomoth22_20220228_115500.WAV,3,Vinanitelo Sud,roar,29,30,388,2588
+audiomoth22_20220304_071500.WAV,2,Vinanitelo Sud,roar,29,30,356,1520
+audiomoth22_20220304_081300.WAV,3,Vinanitelo Sud,bark,29,33,453,2361
+audiomoth22_20220304_081900.WAV,1,Vinanitelo Sud,bark,29,33,550,2458
+audiomoth3_20211214_062500.WAV,2,Antanivelona,roar,29,32,129,1779
+audiomoth1_20211212_122700.WAV,1,Malazamasina,roar,30,31,187,1928
+audiomoth2_20211231_054603.WAV,1,Sahafoza,roar-shriek,30,36,162,1294
+audiomoth22_20220304_071300.WAV,3,Vinanitelo Sud,roar,30,31,453,1520
+audiomoth22_20220304_082200.WAV,2,Vinanitelo Sud,bark,30,33,582,2329
+audiomoth22_20220304_083200.WAV,1,Vinanitelo Sud,bark,30,32,615,1553
+audiomoth3_20211226_170802.WAV,1,Antanivelona,roar-shriek,30,52,0,2264
+audiomoth5_20211216_172900.WAV,2,Mandriandry,roar-shriek,30,32,65,1391
+audiomoth1_20211212_124700.WAV,1,Malazamasina,roar-shriek,31,55,97,2038
+audiomoth2_20211224_084200.WAV,2,Sahafoza,roar-shriek,31,55,32,2782
+audiomoth5_20211216_161000.WAV,1,Mandriandry,roar-shriek,31,55,226,2329
+audiomoth5_20211224_152003.WAV,1,Mandriandry,roar-shriek,31,44,32,1779
+audiomoth1_20211212_110100.WAV,1,Malazamasina,roar-shriek,32,55,0,9743
+audiomoth1_20211218_151700.WAV,2,Malazamasina,roar-shriek,32,52,129,1617
+audiomoth1_20211218_174400.WAV,3,Malazamasina,bark,32,39,259,2523
+Audiomoth1_Sakaroa_20220516_062300.WAV,4,Sakaroa,bark,32,34,478,1365
+audiomoth10_20220304_174700.WAV,1,Andranomiditra,roar,32,33,32,4205
+audiomoth2_20211231_051103.WAV,1,Sahafoza,roar-shriek,32,52,97,1844
+audiomoth22_20220304_070600.WAV,1,Vinanitelo Sud,roar,32,33,97,2329
+audiomoth22_20220304_070700.WAV,2,Vinanitelo Sud,roar,32,33,421,1844
+audiomoth22_20220304_071600.WAV,4,Vinanitelo Sud,roar,32,33,129,1585
+audiomoth22_20220304_083000.WAV,1,Vinanitelo Sud,bark,32,35,615,2588
+audiomoth12_20220302_090200.WAV,1,Sandranata,roar-shriek,33,48,712,4076
+audiomoth2_20211224_080400.WAV,1,Sahafoza,roar-shriek,33,55,32,2232
+audiomoth22_20220304_081000.WAV,4,Vinanitelo Sud,roar,33,34,453,1617
+audiomoth22_20220304_081200.WAV,4,Vinanitelo Sud,roar,33,34,518,2264
+audiomoth5_20211210_054800.WAV,1,Mandriandry,roar,33,35,65,1747
+audiomoth1_20211212_122500.WAV,1,Malazamasina,roar,34,35,129,1488
+audiomoth2_20211217_061400.WAV,2,Sahafoza,roar-shriek,34,55,97,3040
+audiomoth2_20211224_082600.WAV,1,Sahafoza,roar-shriek,34,55,97,2652
+audiomoth22_20220228_115500.WAV,4,Vinanitelo Sud,roar,34,33,34,162
+audiomoth22_20220304_071000.WAV,3,Vinanitelo Sud,roar,34,35,356,2264
+audiomoth22_20220304_072900.WAV,2,Vinanitelo Sud,roar,34,35,97,1359
+audiomoth22_20220304_081200.WAV,2,Vinanitelo Sud,bark,34,37,356,1520
+audiomoth22_20220304_081400.WAV,4,Vinanitelo Sud,bark,34,37,421,2394
+audiomoth10_20220304_174800.WAV,2,Andranomiditra,roar,35,38,97,4625
+audiomoth22_20220304_070700.WAV,3,Vinanitelo Sud,roar,35,36,324,1585
+audiomoth22_20220304_070800.WAV,3,Vinanitelo Sud,roar,35,36,194,1779
+audiomoth22_20220304_071200.WAV,3,Vinanitelo Sud,roar,35,36,226,1714
+audiomoth22_20220304_071500.WAV,3,Vinanitelo Sud,roar,35,36,453,1585
+audiomoth22_20220304_071700.WAV,3,Vinanitelo Sud,roar,35,36,226,2038
+audiomoth22_20220304_075700.WAV,2,Vinanitelo Sud,roar,35,36,97,1876
+audiomoth22_20220304_081000.WAV,5,Vinanitelo Sud,bark,35,38,453,1553
+audiomoth3_20211214_062600.WAV,3,Antanivelona,roar,35,36,194,2200
+audiomoth1_20211212_122400.WAV,3,Malazamasina,roar,36,37,226,1779
+audiomoth1_20211212_122600.WAV,6,Malazamasina,roar,36,36,226,1650
+audiomoth1_20211212_122700.WAV,2,Malazamasina,roar,36,37,93,1834
+audiomoth22_20220304_070900.WAV,3,Vinanitelo Sud,roar,36,37,194,2005
+audiomoth22_20220304_081100.WAV,4,Vinanitelo Sud,roar,36,37,453,1811
+audiomoth3_20211214_165000.WAV,1,Antanivelona,roar-shriek,36,55,0,3364
+audiomoth5_20211210_182500.WAV,1,Mandriandry,roar-shriek,36,55,194,2102
+audiomoth5_20211210_183300.WAV,1,Mandriandry,roar-shriek,36,55,162,2038
+audiomoth1_20211218_151600.WAV,1,Malazamasina,roar-shriek,37,55,259,2264
+audiomoth2_20211217_134500.WAV,1,Sahafoza,roar-shriek,37,55,32,2232
+audiomoth2_20211224_092500.WAV,2,Sahafoza,roar-shriek,37,55,0,1326
+audiomoth22_20220304_072000.WAV,2,Vinanitelo Sud,roar,37,40,226,1553
+audiomoth22_20220304_081100.WAV,5,Vinanitelo Sud,bark,37,39,388,2523
+audiomoth3_20211214_051200.WAV,1,Antanivelona,roar,37,39,162,1617
+audiomoth3_20211214_064800.WAV,2,Antanivelona,roar,37,39,65,2846
+audiomoth5_20211216_172900.WAV,3,Mandriandry,roar-shriek,37,46,259,2070
+audiomoth5_20211224_093503.WAV,1,Mandriandry,roar-shriek,37,52,92,2333
+audiomoth1_20211212_122400.WAV,4,Malazamasina,roar,38,40,324,1779
+audiomoth1_20211218_174300.WAV,4,Malazamasina,bark,38,43,162,2620
+audiomoth2_20211224_190200.WAV,1,Sahafoza,roar-shriek,38,55,0,1714
+audiomoth22_20220304_071500.WAV,4,Vinanitelo Sud,roar,38,39,518,1779
+audiomoth5_20211224_092203.WAV,1,Mandriandry,roar-shriek,38,52,0,7148
+audiomoth1_20211212_050600.WAV,1,Malazamasina,roar-shriek,39,50,65,3946
+audiomoth10_20220304_174700.WAV,2,Andranomiditra,roar,39,42,65,2005
+audiomoth2_20211224_102100.WAV,1,Sahafoza,roar-shriek,39,55,0,2782
+audiomoth2_20211224_103000.WAV,1,Sahafoza,roar-shriek,39,50,97,1973
+audiomoth22_20220304_081000.WAV,6,Vinanitelo Sud,roar,39,40,421,1682
+audiomoth3_20211214_064500.WAV,1,Antanivelona,roar-shriek,39,51,129,3040
+audiomoth1_20211218_174100.WAV,1,Malazamasina,bark,40,55,226,2943
+audiomoth12_20220226_140500.WAV,3,Sandranata,roar-shriek,40,47,582,3817
+audiomoth22_20220228_115500.WAV,5,Vinanitelo Sud,roar-shriek,40,42,162,1682
+audiomoth3_20211214_062700.WAV,1,Antanivelona,roar-shriek,40,48,32,2396
+audiomoth3_20211226_124802.WAV,1,Antanivelona,roar-shriek,40,53,32,1876
+audiomoth5_20211210_185900.WAV,2,Mandriandry,roar-shriek,40,55,194,1456
+audiomoth1_20211212_121700.WAV,3,Malazamasina,roar,41,42,421,2458
+audiomoth2_20211217_074400.WAV,2,Sahafoza,roar-shriek,41,55,129,2555
+audiomoth2_20211231_130703.WAV,2,Sahafoza,roar-shriek,41,52,0,1747
+audiomoth22_20220228_101900.WAV,2,Vinanitelo Sud,roar,41,42,194,1553
+audiomoth22_20220304_070700.WAV,4,Vinanitelo Sud,roar,41,42,97,3008
+audiomoth22_20220304_071300.WAV,4,Vinanitelo Sud,roar,41,42,356,1617
+audiomoth22_20220304_080800.WAV,3,Vinanitelo Sud,bark,41,44,485,1488
+audiomoth3_20211214_064800.WAV,3,Antanivelona,roar,41,45,291,1844
+audiomoth2_20211231_131603.WAV,1,Sahafoza,roar-shriek,42,52,0,1941
+audiomoth22_20220228_113000.WAV,1,Vinanitelo Sud,roar,42,43,259,1456
+audiomoth22_20220304_081300.WAV,4,Vinanitelo Sud,roar,42,43,129,1682
+audiomoth22_20220304_082000.WAV,3,Vinanitelo Sud,bark,42,45,550,2297
+audiomoth3_20211214_062800.WAV,4,Antanivelona,roar,42,43,97,1844
+audiomoth3_20211214_064900.WAV,4,Antanivelona,roar-shriek,42,53,0,3202
+audiomoth5_20211210_061700.WAV,1,Mandriandry,roar-shriek,42,55,162,2135
+audiomoth1_20211212_121600.WAV,2,Malazamasina,roar-shriek,43,48,0,1908
+audiomoth1_20211218_174600.WAV,2,Malazamasina,bark,43,48,162,2523
+Audiomoth11_20220319_190200.WAV,1,Andray,roar ,43,44,194,9607
+audiomoth2_20211224_191800.WAV,1,Sahafoza,roar-shriek,43,55,65,1100
+audiomoth22_20220304_081000.WAV,7,Vinanitelo Sud,roar,43,44,582,1650
+audiomoth1_20211218_174500.WAV,3,Malazamasina,bark,44,50,226,2562
+Audiomoth1_Sakaroa_20220516_062300.WAV,5,Sakaroa,bark,44,47,501,1319
+audiomoth10_20220304_175000.WAV,1,Andranomiditra,bark,44,49,65,2038
+audiomoth2_20211217_131000.WAV,1,Sahafoza,roar-shriek,44,55,32,2264
+audiomoth22_20220304_070600.WAV,2,Vinanitelo Sud,roar,44,45,162,2976
+audiomoth22_20220304_071500.WAV,5,Vinanitelo Sud,roar,44,48,356,1585
+audiomoth22_20220304_081500.WAV,2,Vinanitelo Sud,roar,44,45,226,1650
+audiomoth3_20211214_065300.WAV,2,Antanivelona,roar-shriek,44,55,0,3784
+audiomoth1_20211218_181900.WAV,1,Malazamasina,roar-shriek,45,55,32,2911
+audiomoth12_20220221_060500.WAV,1,Sandranata,roar-shriek,45,55,841,4949
+audiomoth2_20211231_053703.WAV,1,Sahafoza,roar-shriek,45,52,129,1844
+audiomoth22_20220304_071400.WAV,4,Vinanitelo Sud,roar-shriek,45,53,97,2070
+audiomoth22_20220304_071600.WAV,5,Vinanitelo Sud,roar,45,46,291,1650
+audiomoth22_20220304_082600.WAV,2,Vinanitelo Sud,bark,45,48,356,2426
+audiomoth5_20211210_185700.WAV,1,Mandriandry,roar-shriek,45,55,356,1488
+audiomoth5_20211224_103703.WAV,1,Mandriandry,roar-shriek,45,52,453,1391
+audiomoth1_20211218_174200.WAV,3,Malazamasina,bark,46,51,194,3202
+audiomoth10_20220304_174700.WAV,3,Andranomiditra,roar-shriek,46,53,97,4043
+audiomoth2_20211224_080900.WAV,2,Sahafoza,roar-shriek,46,55,65,1876
+audiomoth2_20211224_084100.WAV,2,Sahafoza,roar-shriek,46,55,65,1747
+audiomoth2_20211224_190600.WAV,1,Sahafoza,roar-shriek,46,55,32,2005
+audiomoth22_20220304_072900.WAV,3,Vinanitelo Sud,roar,46,47,162,1714
+audiomoth22_20220304_080900.WAV,3,Vinanitelo Sud,bark,46,49,65,2264
+audiomoth22_20220309_095000.WAV,1,Vinanitelo Sud,roar-shriek,46,55,0,2135
+audiomoth1_20211212_122400.WAV,5,Malazamasina,roar,47,48,388,2329
+audiomoth1_20211218_155800.WAV,1,Malazamasina,roar-shriek,47,55,194,2102
+audiomoth22_20220228_102300.WAV,1,Vinanitelo Sud,roar-shriek,47,53,162,1488
+audiomoth22_20220304_071100.WAV,2,Vinanitelo Sud,roar,47,48,162,1585
+audiomoth22_20220304_081700.WAV,2,Vinanitelo Sud,bark,47,50,485,1520
+audiomoth3_20211214_064800.WAV,4,Antanivelona,roar-shriek,47,52,129,3072
+audiomoth5_20211210_063300.WAV,1,Mandriandry,roar-shriek,47,55,32,1876
+audiomoth5_20211216_164400.WAV,1,Mandriandry,roar-shriek,47,55,291,1714
+audiomoth1_20211212_050700.WAV,2,Malazamasina,bark,48,53,194,4011
+audiomoth1_20211212_064900.WAV,1,Malazamasina,roar,48,49,97,1747
+audiomoth2_20211217_145600.WAV,1,Sahafoza,roar-shriek,48,55,97,1520
+audiomoth22_20220304_070700.WAV,5,Vinanitelo Sud,roar,48,49,162,2297
+audiomoth22_20220304_070900.WAV,4,Vinanitelo Sud,roar,48,49,324,1973
+audiomoth22_20220304_071700.WAV,4,Vinanitelo Sud,roar-shriek,48,53,259,2232
+audiomoth22_20220304_071800.WAV,3,Vinanitelo Sud,roar-shriek,48,53,97,2264
+audiomoth22_20220304_081800.WAV,2,Vinanitelo Sud,roar-shriek,48,54,485,1973
+audiomoth3_20211214_064600.WAV,2,Antanivelona,roar-shriek,48,50,97,1908
+audiomoth3_20211220_080600.WAV,1,Antanivelona,roar-shriek,48,55,162,2426
+audiomoth1_20211212_122500.WAV,2,Malazamasina,roar,49,50,259,1747
+audiomoth1_20211212_122800.WAV,3,Malazamasina,roar,49,50,226,1617
+audiomoth1_20211218_174400.WAV,4,Malazamasina,bark,49,54,291,2749
+audiomoth2_20211224_092300.WAV,2,Sahafoza,roar-shriek,49,55,194,3526
+audiomoth2_20211224_193500.WAV,1,Sahafoza,roar-shriek,49,55,97,1585
+audiomoth22_20220304_081300.WAV,5,Vinanitelo Sud,bark,49,53,259,1682
+audiomoth5_20211210_190400.WAV,1,Mandriandry,roar-shriek,49,55,32,1747
+Audiomoth1_Sakaroa_20220516_062300.WAV,6,Sakaroa,bark,50,53,523,2366
+audiomoth22_20220304_072200.WAV,2,Vinanitelo Sud,roar,50,51,162,1747
+audiomoth22_20220304_081000.WAV,8,Vinanitelo Sud,bark,50,53,615,1488
+audiomoth22_20220304_081200.WAV,3,Vinanitelo Sud,bark,50,52,518,1520
+audiomoth3_20211214_062600.WAV,4,Antanivelona,roar,50,51,485,1876
+audiomoth5_20211210_180100.WAV,1,Mandriandry,roar-shriek,50,55,162,1941
+audiomoth5_20211216_082600.WAV,2,Mandriandry,roar-shriek,50,55,0,1973
+audiomoth12_20220226_155000.WAV,1,Sandranata,roar-shriek,51,55,356,4043
+audiomoth22_20220304_071000.WAV,4,Vinanitelo Sud,roar,51,52,421,2167
+audiomoth22_20220304_081500.WAV,3,Vinanitelo Sud,roar,51,52,356,1747
+audiomoth22_20220304_082100.WAV,2,Vinanitelo Sud,bark,51,55,582,2620
+audiomoth22_20220304_082400.WAV,2,Vinanitelo Sud,bark,51,54,356,1585
+audiomoth3_20211214_062500.WAV,3,Antanivelona,roar,51,55,0,2070
+audiomoth3_20211214_065800.WAV,2,Antanivelona,roar-shriek,51,55,137,1738
+audiomoth10_20220304_174900.WAV,1,Andranomiditra,bark,52,55,97,2232
+audiomoth12_20220302_093000.WAV,1,Sandranata,roar-shriek,52,55,518,3881
+audiomoth2_20211217_061100.WAV,1,Sahafoza,roar-shriek,52,55,129,3235
+audiomoth2_20211224_104100.WAV,1,Sahafoza,roar-shriek,52,55,129,2717
+audiomoth22_20220304_071100.WAV,3,Vinanitelo Sud,roar,52,53,259,1747
+audiomoth5_20211210_181700.WAV,1,Mandriandry,roar-shriek,52,55,226,1520
+audiomoth12_20220226_140400.WAV,1,Sandranata,chatter,53,55,162,3687
+audiomoth22_20220304_081100.WAV,6,Vinanitelo Sud,bark,53,55,291,1844
+audiomoth22_20220304_082700.WAV,2,Vinanitelo Sud,bark,53,55,485,1488
+audiomoth3_20211214_062700.WAV,2,Antanivelona,roar,53,55,356,1197
+audiomoth3_20211214_064600.WAV,3,Antanivelona,roar-shriek,53,55,582,2264
+audiomoth5_20211210_181200.WAV,1,Mandriandry,roar-shriek,53,55,97,2200
+audiomoth1_20211212_122500.WAV,3,Malazamasina,roar,54,55,356,1682
+audiomoth2_20211224_082700.WAV,3,Sahafoza,roar,54,55,65,2135
+audiomoth22_20220304_080800.WAV,4,Vinanitelo Sud,bark,54,55,97,1488
+audiomoth22_20220304_081400.WAV,5,Vinanitelo Sud,bark,54,55,518,2491
+swift1_20190630_070004.wav,1,Mangevo,roar-shriek,159,189,122,3416
+swift1_20190629_070004.wav,1,Mangevo,roar-shriek,332,349,61,2684
+swift1_20190609_080005.wav,1,Mangevo,bark,650,654,396,2958
+swift1_20190609_080005.wav,2,Mangevo,bark,682,685,427,1891
+swift1_20190609_080005.wav,3,Mangevo,bark,698,701,549,1830
+swift1_20190630_070004.wav,2,Mangevo,roar-shriek,716,780,122,2196
+swift1_20190614_050002.wav,1,Mangevo,bark,799,803,431,2566
+swift1_20190630_070004.wav,3,Mangevo,roar-shriek,1571,1591,92,6343
+swift1_20190629_070004.wav,2,Mangevo,roar-shriek,1654,1666,92,3233
+swift1_20190630_090005.wav,1,Mangevo,roar-shriek,1682,1695,122,3355
+swift1_20190609_060003.wav,1,Mangevo,roar-shriek,1721,1730,86,3299
+swift1_20190630_090005.wav,2,Mangevo,roar-shriek,2110,2122,122,3324
+swift1_20190629_080004.wav,1,Mangevo,roar-shriek,2226,2243,61,4300
+swift1_20190614_080004.wav,1,Mangevo,roar-shriek,2362,2373,108,3644
+swift1_20190630_070004.wav,4,Mangevo,roar-shriek,2632,2650,92,3416
+swift1_20190630_070004.wav,5,Mangevo,roar-shriek,2727,2734,183,2196
+swift1_20190629_080004.wav,2,Mangevo,roar-shriek,2855,2864,122,1952
+swift1_20190521_071722.wav,1,Mangevo,roar-shriek,3385,3392,108,1833
+swift1_20190521_071722.wav,2,Mangevo,roar,3402,3406,86,1531
+swift1_20190521_071722.wav,3,Mangevo,roar,3411,3416,173,1725
+swift1_20190521_071722.wav,4,Mangevo,roar,3419,3422,151,1574
+swift1_20190521_071722.wav,5,Mangevo,roar,3472,3474,345,2027
+swift1_20190521_071722.wav,6,Mangevo,roar,3483,3484,410,1596
+swift1_20190521_071722.wav,7,Mangevo,roar,3494,3496,237,1423
+swift1_20190521_071722.wav,8,Mangevo,roar,3511,3514,108,1725
