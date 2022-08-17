@@ -14,8 +14,13 @@ import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader
 from torch.optim import SGD
-from sklearn.metrics import average_precision_score
+from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay, accuracy_score, balanced_accuracy_score
+from sklearn.metrics import classification_report
+# target_names = ['class 0', 'class 1', 'class 2']
+# print(classification_report(y_true, y_pred, target_names=target_names))
+from sklearn.metrics import precision_score, recall_score, f1_score, PrecisionRecallDisplay, precision_recall_curve
 from torch.utils.tensorboard import SummaryWriter
+import numpy as np
 
 # let's import our own classes and functions!
 from util import init_seed
@@ -31,7 +36,6 @@ def create_dataloader(cfg, split='train'):
     dataset_instance = AudioDataset(cfg, split)        # create an object instance of our AudioDataset class
 
     # print(dataset_instance[0])
-    # assert 0
     
     do_shuffle = split == 'train'
     dataLoader = DataLoader(
@@ -51,16 +55,18 @@ def load_model(cfg):
     model_instance = CarNet(cfg['num_classes'])         # CHAGNED ; create an object instance of our model class
 
     # load latest model state
-    model_states = glob.glob('model_states/*.pt')
+    model_states = glob.glob('testing_metrics_model/*.pt')
     if len(model_states):
         # at least one save state found; get latest
-        model_epochs = [int(m.replace('model_states/','').replace('.pt','')) for m in model_states]
+        model_epochs = [int(m.replace('testing_metrics_model/','').replace('.pt','')) for m in model_states]
         start_epoch = max(model_epochs)
 
         # load state dict and apply weights to model
         print(f'Resuming from epoch {start_epoch}')
-        state = torch.load(open(f'model_states/{start_epoch}.pt', 'rb'), map_location='cpu')
+        state = torch.load(open(f'testing_metrics_model/{start_epoch}.pt', 'rb'), map_location='cpu')
         model_instance.load_state_dict(state['model'])
+        #f'{}/{start_epoch}.pt'.format(cfg['save_dir']) #empty expression not allowed
+        #f'model_states/{start_epoch}.pt'
 
     else:
         # no save state found; start anew
@@ -73,19 +79,19 @@ def load_model(cfg):
 
 def save_model(cfg, epoch, model, stats):
     # make sure save directory exists; create if not
-    os.makedirs('model_states', exist_ok=True)
+    os.makedirs('testing_metrics_model', exist_ok=True)
 
     # get model parameters and add to stats...
     stats['model'] = model.state_dict()
 
     # ...and save
-    torch.save(stats, open(f'model_states/{epoch}.pt', 'wb'))
+    torch.save(stats, open(f'testing_metrics_model/{epoch}.pt', 'wb'))
     
     # also save config file if not present
-    cfpath = 'model_states/config.yaml'
-    if not os.path.exists(cfpath):
-        with open(cfpath, 'w') as f:
-            yaml.dump(cfg, f)
+    # cfpath = cfg['save_dir']+'/'+'config.yaml'
+    # if not os.path.exists(cfpath):
+    #     with open(cfpath, 'w') as f:
+    #         yaml.dump(cfg, f)
 
             
 
@@ -116,7 +122,12 @@ def train(cfg, dataLoader, model, optimizer):
     # and validation (examples: Batch Normalization, Dropout, etc.)
     model.train()
 
-    # loss function
+    #tensor of negative, then positive class weights
+    # class_weights = torch.tensor(0.00001603720632, 0.00314465408805).cuda()
+    # print(class_weights)
+    # print(type(class_weights))
+
+    # loss function (within function, include weight=class_weights)
     criterion = nn.CrossEntropyLoss()
 
     # running averages
@@ -124,6 +135,11 @@ def train(cfg, dataLoader, model, optimizer):
 
     # iterate over dataLoader
     progressBar = trange(len(dataLoader))
+    
+    pred_labels = []
+    pred_scores = []
+    true_labels = []
+
     for idx, (data, labels) in enumerate(dataLoader):       # see the last line of file "dataset.py" where we return the image tensor (data) and label
 
         # put data and labels on device
@@ -144,10 +160,15 @@ def train(cfg, dataLoader, model, optimizer):
         # apply gradients to model parameters
         optimizer.step()
 
-        # log statistics
-        loss_total += loss.item()                       # the .item() command retrieves the value of a single-valued tensor, regardless of its data type and device of tensor
+        # log statistics                                # the predicted label is the one at position (class index) with highest predicted value
+        loss_total += loss.item()                       # the .item() command retrieves the value of a single-valued tensor, regardless of its data type and device of tensor                                                
+            
+        pred_label = torch.argmax(prediction, dim=1)    # #argmax - turn probability score into binary label - pred_label is tensor of 0's & 1's
+        pred_score = torch.softmax(prediction, dim=1)    
+        pred_scores.extend(pred_score.cpu().detach().numpy())
+        pred_labels.extend(pred_label.cpu().detach().numpy())
+        true_labels.extend(labels.cpu().numpy())
 
-        pred_label = torch.argmax(prediction, dim=1)    # the predicted label is the one at position (class index) with highest predicted value
         oa = torch.mean((pred_label == labels).float()) # OA: number of correct predictions divided by batch size (i.e., average/mean)
         oa_total += oa.item()
 
@@ -158,14 +179,35 @@ def train(cfg, dataLoader, model, optimizer):
             )
         )
         progressBar.update(1)
-    
+
     # end of epoch; finalize
     progressBar.close()
+    
     loss_total /= len(dataLoader)           # shorthand notation for: loss_total = loss_total / len(dataLoader)
     oa_total /= len(dataLoader)
+    # print(type(true_labels))
+    # print(type(pred_labels))
+    true_labels = np.array(true_labels)
+    pred_labels = np.array(pred_labels)
+    pred_scores = np.array(pred_scores)
+    
+    acc_0 = np.mean(true_labels[true_labels==0] == pred_labels[true_labels==0])
+    acc_1 = np.mean(true_labels[true_labels==1] == pred_labels[true_labels==1])
+    # print(np.shape(pred_labels))
+    bas = balanced_accuracy_score(true_labels, pred_labels)
+    
+    print(f'bas: {bas}, acc_0: {acc_0}, acc_1: {acc_1}')
+
+    num_pos = np.where(true_labels==1)[0].shape[0]
+    pos_weight = 1/num_pos
+    num_neg = 1/np.where(true_labels==0)[0].shape[0]
+    neg_weight = 1/num_neg
+    # print(num_pos)
+    # print(pos_weight)
+    # print(num_neg)
+    # print(neg_weight)
 
     return loss_total, oa_total
-
 
 
 def validate(cfg, dataLoader, model):
@@ -189,6 +231,10 @@ def validate(cfg, dataLoader, model):
     # iterate over dataLoader
     progressBar = trange(len(dataLoader))
     
+    pred_labels = []
+    pred_scores = []
+    true_labels = []
+
     with torch.no_grad():               # don't calculate intermediate gradient steps: we don't need them, so this saves memory and is faster
         for idx, (data, labels) in enumerate(dataLoader):
 
@@ -201,11 +247,16 @@ def validate(cfg, dataLoader, model):
             # loss
             loss = criterion(prediction, labels)
 
-            # log statistics
-            loss_total += loss.item()
-
-            pred_label = torch.argmax(prediction, dim=1)
-            oa = torch.mean((pred_label == labels).float())
+            # log statistics                                # the predicted label is the one at position (class index) with highest predicted value
+            loss_total += loss.item()                       # the .item() command retrieves the value of a single-valued tensor, regardless of its data type and device of tensor                                                
+            
+            pred_label = torch.argmax(prediction, dim=1)    # argmax - turn probability score into binary label - pred_label is tensor of 0's & 1's
+            pred_score = torch.softmax(prediction, dim=1)    
+            pred_scores.extend(pred_score.cpu().detach().numpy())
+            pred_labels.extend(pred_label.cpu().detach().numpy())
+            true_labels.extend(labels.cpu().numpy())
+            
+            oa = torch.mean((pred_label == labels).float()) # OA: number of correct predictions divided by batch size (i.e., average/mean)
             oa_total += oa.item()
 
             progressBar.set_description(
@@ -218,9 +269,20 @@ def validate(cfg, dataLoader, model):
     
     # end of epoch; finalize
     progressBar.close()
+
     loss_total /= len(dataLoader)
     oa_total /= len(dataLoader)
 
+    true_labels = np.array(true_labels)
+    pred_labels = np.array(pred_labels)
+    pred_scores = np.array(pred_scores)
+
+    acc_0 = np.mean(true_labels[true_labels==0] == pred_labels[true_labels==0])
+    acc_1 = np.mean(true_labels[true_labels==1] == pred_labels[true_labels==1])
+    bas = balanced_accuracy_score(true_labels, pred_labels)
+
+    print(f'bas: {bas}, acc_0: {acc_0}, acc_1: {acc_1}')
+    
     return loss_total, oa_total
 
 
@@ -258,33 +320,38 @@ def main():
 
     # we have everything now: data loaders, model, optimizer; let's do the epochs!
     numEpochs = cfg['num_epochs']
+    
     #tensorboard initialize
     writer=SummaryWriter()
+    
     while current_epoch < numEpochs:
         current_epoch += 1
         print(f'Epoch {current_epoch}/{numEpochs}')
 
         loss_train, oa_train = train(cfg, dl_train, model, optim)
         loss_val, oa_val = validate(cfg, dl_val, model)
+
         
+        #tensorboard
         writer.add_scalar('Train loss',loss_train,current_epoch)
         writer.add_scalar('Val loss',loss_val,current_epoch)
         writer.add_scalar('Train Accur',oa_train,current_epoch)
         writer.add_scalar('Val Accur',oa_val,current_epoch)
         writer.flush()
+
         # combine stats and save
         stats = {
             'loss_train': loss_train,
             'loss_val': loss_val,
             'oa_train': oa_train,
-            'oa_val': oa_val
+            'oa_val': oa_val,
         }
         save_model(cfg, current_epoch, model, stats)
-        writer.close()
-    
+        #print(stats)
 
-    # That's all, folks!
-        
+        #tensorboard ends
+        writer.close()
+
 
 
 if __name__ == '__main__':

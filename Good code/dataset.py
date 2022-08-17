@@ -121,6 +121,7 @@ class AudioDataset(Dataset):
         self.data = []                                                  # NEED TO CHANGE
         for filename, label in zip(filenames, labels):
             self.data.append([filename, label])
+        #self.data = self.data[:100] # reduce dataset size for debug
     
 
     def __len__(self):

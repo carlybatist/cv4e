@@ -1,6 +1,5 @@
 '''
     Model implementation.
-    We'll be using a "simple" ResNet-18 for image classification here.
     2022 Benjamin Kellenberger
 '''
 
