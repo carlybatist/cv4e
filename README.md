@@ -1,2 +1,3 @@
-# Using Machine Learning Models to Detect Lemurs from Passive Acoustic Data
-Collected 2021-2022 in the southeastern rainforest corridor of Madagascar
+# Using ML Models to Detect Lemurs from Passive Acoustic Data
+
+I use passive acoustic monitoring (PAM) to survey ruffed lemur populations in southeastern Madagascar. I've deployed PAM recorders (Audiomoths & Swifts) at sites across a 150km rainforest corridor where little to no research has taken place since the 1980s and for which we don’t know the distribution of lemurs. Building off work I began at CalTech's CV4Ecology Summer School, I’ll be using machine learning to automatically detect/pick out ruffed lemur calls in spectrograms from these long-term PAM recordings. These detections, combined with the spatial layout (GPS) of the devices, can then be used to model lemur distribution and range in the corridor. This will contribute to the next species census and help identify sites to prioritize for future conservation initiatives.
